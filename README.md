@@ -75,3 +75,5 @@ This method takes in one argument, the array from which we want to retrieve an e
 The last element of an array is considered to be stored at an index of `-1`.
 
 ## Conclusion
+
+Congratulations! You just completed learning how to work with create, retrieve, update, and delete array operations.
