@@ -98,5 +98,6 @@ The last element of an array is considered to be stored at an index of `-1`.
 
 ## Conclusion
 
-We've now created and manipulated arrays using a number of basic methods
-provided to us in Ruby.
+Congratulations! You just completed learning how to work with create, retrieve,
+update, and delete array operations using simple operatations provided to us in
+Ruby.
