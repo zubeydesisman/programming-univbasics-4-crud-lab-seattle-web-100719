@@ -20,7 +20,7 @@ of which is responsible for one of the tasks above.
 
 Let's go through the first challenge together.
 
-## `#create_an_empty_array`
+## `create_an_empty_array`
 
 Let's run our test suite to get started. Run the tests one at a time with the
 `learn --fail-fast` command in your terminal.
@@ -30,10 +30,10 @@ If we do so, we'll see our first failure:
 ![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-10-26%20at%202.05.07%20PM.png)
 
 Our test is telling us that we are expected to code the content of our
-`#create_an_empty_array` method such that a new, empty array is created and
+`create_an_empty_array` method such that a new, empty array is created and
 returned. Our test `expected` an empty array, `[]`, but got `nil`.
 
-Open up `lib/array_crud.rb` and check out the `#create_an_empty_array` method.
+Open up `lib/array_crud.rb` and check out the `create_an_empty_array` method.
 It's empty! Let's write the code that will get the test passing.
 
 We'll use the literal constructor to make a new array with nothing in it:
@@ -56,23 +56,23 @@ only four of them.
 ## `add_element_to_end_of_array`
 
 This method takes in two arguments, an array and the element we want to add to
-it. Use the `<<` (shovel) method or the `#push` method to add that element to
+it. Use the `<<` (shovel) method or the `push` method to add that element to
 the end of the new array.
 
 ## `add_element_to_start_of_array`
 
 This method takes in two arguments, an array and the element we want to add to
-it. Use the `#unshift` method to add that element to the start of that array.
+it. Use the `unshift` method to add that element to the start of that array.
 
 ## `remove_element_from_end_of_array`
 
 This method takes in one argument, the array on which we want to operate. Use
-the `#pop` method to remove the last item from the array.
+the `pop` method to remove the last item from the array.
 
 ## `remove_element_from_start_of_array`
 
 This method takes in one argument, the array on which we want to operate. Use
-the `#shift` method to remove the first item from the array.
+the `shift` method to remove the first item from the array.
 
 ## `retrieve_element_from_index`
 
@@ -95,6 +95,13 @@ element. There are a number of ways to do this, but we recommend using the `[]`
 method with the following hint:
 
 The last element of an array is considered to be stored at an index of `-1`.
+
+## `update_element_from_index`
+
+This method takes in three arguments: the array from which we want to update an
+element, the index number of the element to update and the new element value.
+Refer back to your `retrieve_element_from_index` method for how to target the
+desired element.
 
 ## Conclusion
 
