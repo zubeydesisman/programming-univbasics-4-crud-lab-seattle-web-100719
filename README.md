@@ -57,7 +57,7 @@ only four of them.
 ## `add_element_to_end_of_array`
 
 This method takes in two arguments, an array and the element we want to add to
-it. Use the `<<` (shovel) method or the `push` method to add that element to
+it. Use the `<<` (shovel) method or the `#push` method to add that element to
 the end of the new array.
 
 ## `add_element_to_start_of_array`
@@ -68,12 +68,12 @@ it. Use the `unshift` method to add that element to the start of that array.
 ## `remove_element_from_end_of_array`
 
 This method takes in one argument, the array on which we want to operate. Use
-the `pop` method to remove the last item from the array.
+the `#pop` method to remove the last item from the array.
 
 ## `remove_element_from_start_of_array`
 
 This method takes in one argument, the array on which we want to operate. Use
-the `shift` method to remove the first item from the array.
+the `#shift` method to remove the first item from the array.
 
 ## `retrieve_element_from_index`
 
