@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe "#create_an_empty_array" do
+describe "create_an_empty_array" do
   it "creates and returns and empty array" do 
     expect(create_an_empty_array).to eq([])
   end 
@@ -62,5 +62,13 @@ describe "retrieve_last_element_from_array" do
   it "takes in an argument of an array and returns the last element of that array" do 
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
     expect(retrieve_last_element_from_array(array)).to eq("arrays!")
+  end
+end
+
+describe "update_element_from_index" do 
+  it "takes in an argument of an array, an index number and element value and returns the updated element" do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    index_number = 4
+    expect(update_element_from_index(array, 4, "totally")).to eq("totally")
   end
 end
